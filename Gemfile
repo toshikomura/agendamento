@@ -39,3 +39,6 @@ gem 'jquery-rails'
 
 # To login
 gem 'devise'
+
+# To restrict acess pages and/or links
+gem 'cancan'
