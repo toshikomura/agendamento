@@ -42,3 +42,6 @@ gem 'devise'
 
 # To restrict acess pages and/or links
 gem 'cancan'
+
+# To types of users
+gem 'rolify'
