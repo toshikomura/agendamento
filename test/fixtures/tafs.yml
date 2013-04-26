@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  te_id: 1
+  tc_id: 1
+  top_id: 1
+  tts_id: 1
+  ta01_horario_inicio_consulta: 2013-04-26 15:40:25
+  ta02_horario_fim_consulta: 2013-04-26 15:40:25
+
+two:
+  te_id: 1
+  tc_id: 1
+  top_id: 1
+  tts_id: 1
+  ta01_horario_inicio_consulta: 2013-04-26 15:40:25
+  ta02_horario_fim_consulta: 2013-04-26 15:40:25
