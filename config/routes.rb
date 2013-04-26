@@ -1,4 +1,7 @@
 Agendamento::Application.routes.draw do
+  resources :tes
+
+
   resources :tafs
 
 

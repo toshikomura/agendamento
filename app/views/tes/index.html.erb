@@ -1,0 +1,43 @@
+<h1>Listing tes</h1>
+
+<table>
+  <tr>
+    <th>Tprof profissional</th>
+    <th>Tprof responsavel</th>
+    <th>Tta</th>
+    <th>Top</th>
+    <th>Ttac</th>
+    <th>Te01 num seq</th>
+    <th>Te03 data execucao</th>
+    <th>Te04 horario inicio execucao</th>
+    <th>Te05 horario fim execucao</th>
+    <th>Te06 observacoes</th>
+    <th>Te07 num atendimentos</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @tes.each do |te| %>
+  <tr>
+    <td><%= te.tprof_profissional_id %></td>
+    <td><%= te.tprof_responsavel_id %></td>
+    <td><%= te.tta_id %></td>
+    <td><%= te.top_id %></td>
+    <td><%= te.ttac_id %></td>
+    <td><%= te.te01_num_seq %></td>
+    <td><%= te.te03_data_execucao %></td>
+    <td><%= te.te04_horario_inicio_execucao %></td>
+    <td><%= te.te05_horario_fim_execucao %></td>
+    <td><%= te.te06_observacoes %></td>
+    <td><%= te.te07_num_atendimentos %></td>
+    <td><%= link_to 'Show', te %></td>
+    <td><%= link_to 'Edit', edit_te_path(te) %></td>
+    <td><%= link_to 'Destroy', te, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Te', new_te_path %>

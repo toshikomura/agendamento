@@ -1,0 +1,61 @@
+<%= form_for(@te) do |f| %>
+  <% if @te.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@te.errors.count, "error") %> prohibited this te from being saved:</h2>
+
+      <ul>
+      <% @te.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :tprof_profissional_id %><br />
+    <%= f.number_field :tprof_profissional_id %>
+  </div>
+  <div class="field">
+    <%= f.label :tprof_responsavel_id %><br />
+    <%= f.number_field :tprof_responsavel_id %>
+  </div>
+  <div class="field">
+    <%= f.label :tta_id %><br />
+    <%= f.number_field :tta_id %>
+  </div>
+  <div class="field">
+    <%= f.label :top_id %><br />
+    <%= f.number_field :top_id %>
+  </div>
+  <div class="field">
+    <%= f.label :ttac_id %><br />
+    <%= f.number_field :ttac_id %>
+  </div>
+  <div class="field">
+    <%= f.label :te01_num_seq %><br />
+    <%= f.number_field :te01_num_seq %>
+  </div>
+  <div class="field">
+    <%= f.label :te03_data_execucao %><br />
+    <%= f.date_select :te03_data_execucao %>
+  </div>
+  <div class="field">
+    <%= f.label :te04_horario_inicio_execucao %><br />
+    <%= f.datetime_select :te04_horario_inicio_execucao %>
+  </div>
+  <div class="field">
+    <%= f.label :te05_horario_fim_execucao %><br />
+    <%= f.datetime_select :te05_horario_fim_execucao %>
+  </div>
+  <div class="field">
+    <%= f.label :te06_observacoes %><br />
+    <%= f.text_field :te06_observacoes %>
+  </div>
+  <div class="field">
+    <%= f.label :te07_num_atendimentos %><br />
+    <%= f.number_field :te07_num_atendimentos %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

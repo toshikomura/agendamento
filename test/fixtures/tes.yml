@@ -1,0 +1,27 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  tprof_profissional_id: 1
+  tprof_responsavel_id: 1
+  tta_id: 1
+  top_id: 1
+  ttac_id: 1
+  te01_num_seq: 1
+  te03_data_execucao: 2013-04-26
+  te04_horario_inicio_execucao: 2013-04-26 15:46:44
+  te05_horario_fim_execucao: 2013-04-26 15:46:44
+  te06_observacoes: MyString
+  te07_num_atendimentos: 1
+
+two:
+  tprof_profissional_id: 1
+  tprof_responsavel_id: 1
+  tta_id: 1
+  top_id: 1
+  ttac_id: 1
+  te01_num_seq: 1
+  te03_data_execucao: 2013-04-26
+  te04_horario_inicio_execucao: 2013-04-26 15:46:44
+  te05_horario_fim_execucao: 2013-04-26 15:46:44
+  te06_observacoes: MyString
+  te07_num_atendimentos: 1
